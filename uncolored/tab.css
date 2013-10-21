@@ -1,0 +1,168 @@
+/*****ADMIN TABS*************/
+/*Löschen*/
+a#ca-delete {
+	background-image: url(images/tabdel.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+	margin-right:2px;
+	margin-left: 5px;
+}
+a#ca-delete:hover {
+	background-image: url(images/tabdel.hover.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+	margin-right:2px;
+	margin-left: 5px;
+}
+/*verschieben*/
+a#ca-move {
+	background-image: url(images/tabver.png);
+    cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+		margin-right:2px;
+}
+a#ca-move:hover {
+	background-image: url(images/tabver.hover.png);
+    cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+		margin-right:2px;
+}
+/*Schützen*/
+a#ca-protect {
+	background-image: url(images/tabschutz.png);
+    cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+		margin-right:2px;
+}
+a#ca-protect:hover {
+	background-image: url(images/tabschutz.hover.png);
+    cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+		margin-right:2px;
+}
+/*Beobachten*/
+#ca-watch {
+	background-image: url(images/tabbeo.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+	margin-right:2px;
+}
+#ca-watch:hover {
+	background-image: url(images/tabunbeo.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+	margin-right:2px;
+}
+/*Beobachten beenden*/
+#ca-unwatch {
+	background-image: url(images/tabunbeo.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+	margin-right:2px;
+}
+#ca-unwatch:hover {
+	background-image: url(images/tabbeo.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+	margin-right:2px;
+}
+/*Erstellen/Bearbeiten*/
+#ca-edit {
+	background-image: url(images/tabedit.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+	margin-right:2px;
+}
+#ca-edit:hover {
+	background-image: url(images/tabedit.hover.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+	margin-right:2px;
+}
+/*+*/
+#ca-addsection {
+	background-image: url(images/tab+.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 15px !important;
+	width: 20px;
+	margin-right:2px;
+}
+#ca-addsection:hover {
+	background-image: url(images/tab+.hover.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 15px !important;
+	width: 20px;
+	margin-right:2px;
+}
+/*Geschichte*/
+#ca-history {
+	background-image: url(images/tabgesch.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+	margin-right:2px;
+}
+#ca-history:hover {
+	background-image: url(images/tabgesch.hover.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+	margin-right:2px;
+}
+/* Wiederherstellen*/
+#ca-undelete {
+	background-image: url(images/tabwied.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+	margin-right:2px;
+}
+#ca-undelete:hover {
+	background-image: url(images/tabwied.hover.png);
+	cursor: pointer;
+	text-transform: none;
+    padding: 5px 20px !important;
+	width: 24px;
+	margin-right:2px;
+}
+
+span#ca-undelete,
+span#ca-addsection,
+span#ca-delete,
+span#ca-move,
+span#ca-protect,
+span#ca-watch,
+span#ca-unwatch,
+span#ca-edit,
+span#ca-history {
+display:none;
+}
